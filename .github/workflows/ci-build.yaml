@@ -14,7 +14,7 @@ jobs:
 
     services:
       postgres:
-        image: postgres:alphine
+        image: postgres:alpine
         ports: 
           - 5432:5432
         env:
